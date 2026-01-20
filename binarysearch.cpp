@@ -33,6 +33,7 @@ int main() {
         else {
             lower = mid + 1;
         }
+        
     }
 
     if (foundIndex != -1) {

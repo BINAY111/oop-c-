@@ -54,7 +54,7 @@ void mergesort(int a[], int start,int end){
 }
 
 void printsort(int a[], int size){
-	cout<<"sorted array"<<endl;
+	
 	for (int i=0;i<size;i++){
 		cout<<a[i]<<"->";
 	}
@@ -74,8 +74,10 @@ cin>>a[i];
 
 }
 cout<<endl;
-
+cout<<"original array"<<endl;
+printsort(a,n);
 mergesort(a,0,n-1);
+cout<<"sorted array"<<endl;
 printsort(a,n);
 
 return 0;
